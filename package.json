@@ -1,0 +1,24 @@
+{
+  "name": "drawshieldbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "dependencies": {
+    "@resvg/resvg-wasm": "^2.4.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230914.0",
+    "discord-api-types": "^0.37.56",
+    "eslint": "^8.49.0",
+    "wrangler": "^3.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint --ext \".js\" src/",
+    "lint:fix": "npx eslint --fix --ext \".js\" src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
