@@ -3,7 +3,7 @@ on:
   push:
     paths:
       - 'src/**'
-  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   deploy:
